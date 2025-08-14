@@ -99,7 +99,7 @@ struct ContentView: View {
                 .fontWeight(.medium)
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
-                .border(Color.gray, width: 1)
+//                .border(Color.gray, width: 1)
                 .padding()
                 .focused($textFieldIsFocused)
                 .onChange(of: textFieldIsFocused) { // Keyboard is enabled or disabled
